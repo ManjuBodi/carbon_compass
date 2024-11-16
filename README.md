@@ -10,7 +10,6 @@ Carbon Compass is an interactive platform designed to empower individuals and bu
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 Carbon Compass helps individuals and businesses track, analyze, and reduce their carbon footprints. By integrating AI-powered insights and carbon tracking, Carbon Compass empowers users to make sustainable choices and rewards them with points or carbon credits for eco-friendly actions.
@@ -26,11 +25,6 @@ Carbon Compass helps individuals and businesses track, analyze, and reduce their
 - Estimates emissions based on user-provided data on transportation, energy consumption, and lifestyle choices.
 - Integrates diverse inputs, including waste generation and dietary habits, to provide accurate emissions estimates.
 - Empowers users to identify areas for improvement and track progress toward sustainability goals.
-
-### Competitive Leaderboard
-- Fosters friendly competition among users focused on reducing their carbon footprints.
-- Showcases user positions based on emissions reductions, highlighting achievements and encouraging active participation.
-- Creates a supportive community that celebrates progress in sustainability efforts.
 
 ### Insights
 - Provides personalized recommendations and alternative suggestions for reducing carbon footprints.
@@ -51,7 +45,7 @@ Carbon Compass helps individuals and businesses track, analyze, and reduce their
 - *Database:* Firebase Firestore
 - *Authentication:* Firebase Authentication
 - *AI Integration:* Gemini API
-- *Deployment:* Firebase Hosting or Vercel (optional)
+- *Deployment:* Netlify
 
 ## Setup and Installation
 
@@ -68,7 +62,6 @@ Carbon Compass helps individuals and businesses track, analyze, and reduce their
    
 
 2. *Install Dependencies:*
-   bash
    npm install
    
 
@@ -106,11 +99,8 @@ Carbon Compass helps individuals and businesses track, analyze, and reduce their
 - Collected data is sent to the *Gemini API* for analysis, returning personalized insights on reducing carbon footprint.
 - Insights are displayed on the *Insights page*, along with accumulated reward points or carbon credits.
 
-### Competitive Leaderboard
-- Viewable leaderboard to see other users’ progress in emissions reductions and to compete for higher ranks.
 
 ## Contributing
-
 We welcome contributions! To contribute:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
