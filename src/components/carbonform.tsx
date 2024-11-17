@@ -141,7 +141,7 @@ const CarbonForm: React.FC = () => {
                         totalEmissions,
                     };
                     
-                    const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
+                    const genAI = new GoogleGenerativeAI("AIzaSyDHz726NJiY0CtS366nwLfZWhfyniPgxsY");
                     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
                     const prompt = `(summarise the content within 200-250 words) Given the following business data, suggest a carbon reduction strategy: ${JSON.stringify(payload)}`;
                     const result = await model.generateContentStream(prompt);
