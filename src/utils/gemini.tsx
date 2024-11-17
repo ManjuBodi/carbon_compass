@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { CarbonFormData } from "../types/types";
 // Initialize GoogleGenerativeAI with your API key
-const genAI = new GoogleGenerativeAI("YOUR_API_KEY");
+const genAI = new GoogleGenerativeAI("AIzaSyDHz726NJiY0CtS366nwLfZWhfyniPgxsY");
 
 // Get the generative model without systemInstruction
 const model = genAI.getGenerativeModel({
